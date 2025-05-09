@@ -3,5 +3,6 @@
 ---
 
 chore: improve build process
-- Replace `prepare` script with `prepublishOnly` to avoid unnecessary builds
-- Add explicit build step in GitHub Actions workflow
+- Add `prepublishOnly` script while preserving `prepare` for backwards compatibility
+- Add explicit build step in GitHub Actions workflow with optimized caching
+- Set production environment for builds
