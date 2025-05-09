@@ -1,5 +1,14 @@
 # @techtrain/terminal-design-tokens
 
+## 0.1.5
+
+### Patch Changes
+
+- [#15](https://github.com/TechBowl-japan/terminal-design-tokens/pull/15) [`fdcae63`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/fdcae636d2867a142c328a219cd1fd007e7650b8) Thanks [@valbeat](https://github.com/valbeat)! - ci: add test workflow for pull requests
+  - Add GitHub Actions test workflow to verify builds on PRs
+  - Ensure tokens compile successfully before merging to main
+  - Complement existing release workflow with PR-specific checks
+
 ## 0.1.4
 
 ### Patch Changes
