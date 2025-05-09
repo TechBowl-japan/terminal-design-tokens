@@ -5,7 +5,7 @@
   "main": "dist/variables.js",
   "types": "dist/variables.d.ts",
   "engines": {
-    "node": ">=18"
+    "node": "22.x"
   },
   "scripts": {
     "build": "style-dictionary build",
