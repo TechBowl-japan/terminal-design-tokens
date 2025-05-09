@@ -4,6 +4,16 @@
   "description": "A collection of design tokens for TechTrain Terminal",
   "main": "dist/variables.js",
   "types": "dist/variables.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/variables.js",
+      "require": "./dist/variables.js",
+      "types": "./dist/variables.d.ts"
+    },
+    "./css": "./dist/variables.css",
+    "./scss": "./dist/variables.scss",
+    "./package.json": "./package.json"
+  },
   "engines": {
     "node": "22.x"
   },

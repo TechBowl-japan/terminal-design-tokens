@@ -23,8 +23,22 @@ npm i @techtrain/terminal-design-tokens
 
 ## Usage
 
+### JavaScript/TypeScript
+
 ```typescript
 import DesignToken from '@techtrain/terminal-design-tokens';
+```
+
+### CSS
+
+```css
+@import '@techtrain/terminal-design-tokens/css';
+```
+
+### SCSS
+
+```scss
+@import '@techtrain/terminal-design-tokens/scss';
 ```
 
 ## Contributing
