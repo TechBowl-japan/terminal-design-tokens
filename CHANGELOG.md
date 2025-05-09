@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.0
+
+### Minor Changes
+
+- [#17](https://github.com/TechBowl-japan/terminal-design-tokens/pull/17) [`fe954c2`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/fe954c2e42a261eb8c9ce388f6f34c8401a82c82) Thanks [@valbeat](https://github.com/valbeat)! - Add exports field to package.json to support modern import patterns. This enables direct imports of CSS and SCSS files via subpaths (e.g. /css, /scss) and makes the package more compatible with modern bundlers and frameworks.
+
 ## 0.1.5
 
 ### Patch Changes
