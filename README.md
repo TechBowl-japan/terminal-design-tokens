@@ -25,22 +25,9 @@ npm i @techtrain/terminal-design-tokens
 import DesignToken from '@techtrain/terminal-design-tokens';
 ```
 
-## Development
+## Contributing
 
-The design tokens are managed in the [TechTrain Terminal Figma Community File](https://www.figma.com/community/file/1472050808130527580).
-
-Since our current plan doesn't have access to Figma Variables API, we export tokens manually using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) plugin.
-
-### Updating Tokens
-
-1. Open the Design Tokens plugin
-2. Select the `Export` tab
-3. Check `Exclude extension property` and `Figma Variables`
-4. Click the "Export" button to download the JSON file
-5. Place the downloaded JSON file in the `tokens/` directory
-6. Run `npm run build` to generate platform-specific tokens
-
-![Design Tokens Settings](image.png)
+For information on how to contribute to this project, please see our [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
