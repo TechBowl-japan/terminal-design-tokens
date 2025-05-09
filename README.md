@@ -27,12 +27,6 @@ npm i @techtrain/terminal-design-tokens
 import DesignToken from '@techtrain/terminal-design-tokens';
 ```
 
-## Design System
-
-Our design tokens are maintained in Figma and exported using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) plugin.
-
-- [TechTrain Terminal Design System](https://www.figma.com/community/file/1472050808130527580/techtrain-terminal-design-system) - Explore our complete design system
-
 ## Contributing
 
 For information on how to contribute to this project, please see our [Contributing Guide](CONTRIBUTING.md).
