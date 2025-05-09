@@ -1,0 +1,35 @@
+{
+  "name": "@techtrain/terminal-design-tokens",
+  "version": "1.0.0",
+  "description": "A collection of design tokens for TechTrain Terminal",
+  "main": "dist/variables.js",
+  "types": "dist/variables.d.ts",
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "design-tokens",
+    "techtrain",
+    "css",
+    "scss",
+    "javascript"
+  ],
+  "author": "TechBowl Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "4.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechBowl-japan/terminal-design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechBowl-japan/terminal-design-tokens/issues"
+  },
+  "homepage": "https://github.com/TechBowl-japan/terminal-design-tokens#readme"
+}
