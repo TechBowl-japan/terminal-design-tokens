@@ -1,5 +1,14 @@
 # @techtrain/terminal-design-tokens
 
+## 0.1.3
+
+### Patch Changes
+
+- [#11](https://github.com/TechBowl-japan/terminal-design-tokens/pull/11) [`73aa457`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/73aa4578d126ca01ab508b36ecf5b52f2d463b43) Thanks [@valbeat](https://github.com/valbeat)! - feat: configure GitHub-specific changelog for better integration
+  - Add `@changesets/changelog-github` dependency
+  - Configure Changeset to use GitHub-specific changelog format
+  - Link to GitHub issues and PRs in changelog entries
+
 ## 0.1.2
 
 ### Patch Changes
