@@ -1,0 +1,15 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @TechBowl-japan/design-system will be requested for
+# review when someone opens a pull request.
+*       @TechBowl-japan/design-system
+
+# Token definitions ownership
+/tokens/ @TechBowl-japan/design-system
+
+# Build configuration ownership
+*.json   @TechBowl-japan/design-system
+/config.json   @TechBowl-japan/design-system
+
+# Workflow and GitHub Actions
+/.github/workflows/   @TechBowl-japan/design-system
