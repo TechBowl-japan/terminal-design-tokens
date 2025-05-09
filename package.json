@@ -4,10 +4,15 @@
   "description": "A collection of design tokens for TechTrain Terminal",
   "main": "dist/variables.js",
   "types": "dist/variables.d.ts",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "style-dictionary build",
     "clean": "rm -rf dist",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "files": [
     "dist/*"
