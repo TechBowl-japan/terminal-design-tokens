@@ -28,12 +28,23 @@ jobs:
           node-version-file: 'package.json'
           cache: npm
           registry-url: 'https://registry.npmjs.org'
+          
+      - name: Cache build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            dist
+          key: ${{ runner.os }}-build-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-build-
 
       - name: Install Dependencies
         run: npm ci
         
       - name: Build
         run: npm run build
+        env:
+          NODE_ENV: production
         
       - name: Create Release Pull Request or Publish to npm
         id: changesets
