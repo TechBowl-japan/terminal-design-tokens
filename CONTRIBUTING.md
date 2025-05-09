@@ -2,6 +2,12 @@
 
 Thank you for your interest in contributing to Terminal Design Tokens! This document provides guidelines and instructions for contributing to this project.
 
+## Design Token Source
+
+The design tokens are managed in the [TechTrain Terminal Figma Community File](https://www.figma.com/community/file/1472050808130527580).
+
+Since our current plan doesn't have access to Figma Variables API, we export tokens manually using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) plugin.
+
 ## Development Workflow
 
 ### Prerequisites
@@ -15,7 +21,18 @@ Thank you for your interest in contributing to Terminal Design Tokens! This docu
 2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/terminal-design-tokens.git`
 3. Install dependencies: `npm ci`
 
-### Making Changes
+### Updating Tokens from Figma
+
+1. Open the Design Tokens plugin in Figma
+2. Select the `Export` tab
+3. Check `Exclude extension property` and `Figma Variables`
+4. Click the "Export" button to download the JSON file
+5. Place the downloaded JSON file in the `tokens/` directory
+6. Run `npm run build` to generate platform-specific tokens
+
+![Design Tokens Settings](/image.png)
+
+### Making Changes Directly
 
 1. Create a new branch for your changes: `git checkout -b your-branch-name`
 2. Make your changes to the token files in the `tokens/` directory
@@ -64,3 +81,13 @@ Our release process is automated using GitHub Actions:
 - Follow the Style Dictionary format for token definitions
 - Organize tokens by category (color, typography, spacing, etc.)
 - Use proper semantic naming to indicate the purpose of each token
+
+## Questions?
+
+If you have any questions or need help, please:
+
+1. Check existing issues to see if your question has been answered
+2. Open a new issue for questions or discussions
+3. Reach out to the maintainers if needed
+
+Thank you for contributing to Terminal Design Tokens!
