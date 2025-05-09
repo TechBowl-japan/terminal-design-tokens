@@ -19,7 +19,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -31,7 +30,10 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
-
+        
+      - name: Build
+        run: npm run build
+        
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
