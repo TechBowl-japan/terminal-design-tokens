@@ -1,6 +1,6 @@
 {
   "name": "@techtrain/terminal-design-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of design tokens for TechTrain Terminal",
   "main": "dist/variables.js",
   "types": "dist/variables.d.ts",
@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/TechBowl-japan/terminal-design-tokens/issues"
   },
-  "homepage": "https://github.com/TechBowl-japan/terminal-design-tokens#readme"
+  "homepage": "https://github.com/TechBowl-japan/terminal-design-tokens#readme",
+  "publishConfig": {
+    "provenance": true
+  }
 }
