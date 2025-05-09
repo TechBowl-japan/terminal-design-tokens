@@ -1,33 +1,47 @@
 # TechTrain Terminal Design Tokens
 
-TechTrainのデザインシステム「Terminal」のデザイントークンを管理します。  
-[Style Dictionary](https://amzn.github.io/style-dictionary)を使用して、JSONで定義されたデザイン変数を各プロジェクトで利用可能な形式に変換します。
+[![npm version](https://badge.fury.io/js/%40techtrain%2Fterminal-design-tokens.svg)](https://badge.fury.io/js/%40techtrain%2Fterminal-design-tokens)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## インストール
+Design tokens for TechTrain's design system "Terminal". This package uses [Style Dictionary](https://amzn.github.io/style-dictionary) to transform tokens defined in JSON into multiple platform outputs.
+
+## Features
+
+- Consistent design tokens across platforms
+- JavaScript/TypeScript support
+- CSS/SCSS variables
+- Semantic naming conventions
+- Supports color, typography, sizing, and spacing tokens
+
+## Installation
 
 ```bash
 npm i @techtrain/terminal-design-tokens
 ```
 
-## 使い方
+## Usage
 
 ```typescript
-import DesignToken from '@techtrain/terminal-design-tokens'
+import DesignToken from '@techtrain/terminal-design-tokens';
 ```
 
-## 開発
+## Development
 
-TechTrain Terminalのデザイントークンは[Figma Community File](https://www.figma.com/community/file/1472050808130527580)で管理されています。
+The design tokens are managed in the [TechTrain Terminal Figma Community File](https://www.figma.com/community/file/1472050808130527580).
 
-現在のプランではFigmaのVariables APIを利用できないため、手動でエクスポートする形を取っています。
-そこで、[Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) プラグインを使用します。
+Since our current plan doesn't have access to Figma Variables API, we export tokens manually using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) plugin.
 
-### トークンの更新
+### Updating Tokens
 
-1. プラグインが開いたら、`Export` タブを選択します
-2. `Exclude extension property` と `Figma Variables` にチェックを入れます
-3. 「Export」ボタンをクリックしてJSONファイルをダウンロードします
-4. ダウンロードしたJSONファイルを `tokens/` ディレクトリに配置します
-5. `npm run build` を実行して、各プラットフォーム用のトークンを生成します
+1. Open the Design Tokens plugin
+2. Select the `Export` tab
+3. Check `Exclude extension property` and `Figma Variables`
+4. Click the "Export" button to download the JSON file
+5. Place the downloaded JSON file in the `tokens/` directory
+6. Run `npm run build` to generate platform-specific tokens
 
-![Design Tokensの設定](image.png)
+![Design Tokens Settings](image.png)
+
+## License
+
+MIT
