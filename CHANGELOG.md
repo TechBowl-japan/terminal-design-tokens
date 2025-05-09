@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.0.5
+
+### Patch Changes
+
+- 12189a9: Add version option to changesets/action in GitHub workflow
+
 ## 0.0.4
 
 ### Patch Changes
