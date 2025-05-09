@@ -23,8 +23,36 @@ npm i @techtrain/terminal-design-tokens
 
 ## Usage
 
+### JavaScript/TypeScript
+
 ```typescript
 import DesignToken from '@techtrain/terminal-design-tokens';
+```
+
+### CSS
+
+```css
+/* Import CSS variables */
+@import '@techtrain/terminal-design-tokens/css';
+
+/* Use in your CSS */
+.element {
+  color: var(--tt-color-semantic-primary);
+  padding: var(--tt-spacing-md);
+}
+```
+
+### SCSS
+
+```scss
+/* Import SCSS variables */
+@import '@techtrain/terminal-design-tokens/scss';
+
+/* Use in your SCSS */
+.element {
+  color: $tt-color-semantic-primary;
+  padding: $tt-spacing-md;
+}
 ```
 
 ## Contributing
