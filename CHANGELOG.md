@@ -1,5 +1,12 @@
 # @techtrain/terminal-design-tokens
 
+## 0.1.4
+
+### Patch Changes
+
+- [#13](https://github.com/TechBowl-japan/terminal-design-tokens/pull/13) [`17dafe1`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/17dafe1b21c16e7f79a6e25a79dda6181a63d882) Thanks [@valbeat](https://github.com/valbeat)! - docs: add Figma link to README
+  - Add direct link to Figma design system at the top of README
+
 ## 0.1.3
 
 ### Patch Changes
