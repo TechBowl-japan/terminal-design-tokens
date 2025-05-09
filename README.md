@@ -5,6 +5,8 @@
 
 Design tokens for TechTrain's design system "Terminal". This package uses [Style Dictionary](https://amzn.github.io/style-dictionary) to transform tokens defined in JSON into multiple platform outputs.
 
+🎨 [View in Figma](https://www.figma.com/community/file/1472050808130527580/techtrain-terminal-design-system) - Explore our design system in Figma
+
 ## Features
 
 - Consistent design tokens across platforms
@@ -24,6 +26,12 @@ npm i @techtrain/terminal-design-tokens
 ```typescript
 import DesignToken from '@techtrain/terminal-design-tokens';
 ```
+
+## Design System
+
+Our design tokens are maintained in Figma and exported using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/design-tokens) plugin.
+
+- [TechTrain Terminal Design System](https://www.figma.com/community/file/1472050808130527580/techtrain-terminal-design-system) - Explore our complete design system
 
 ## Contributing
 
