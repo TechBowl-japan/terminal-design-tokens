@@ -1,5 +1,12 @@
 # @techtrain/terminal-design-tokens
 
+## 0.1.1
+
+### Patch Changes
+
+- 648807d: chore: add CODEOWNERS file to automate PR reviews
+- c942d60: docs: Move development guide from README to CONTRIBUTING
+
 ## 0.1.0
 
 ### Minor Changes
