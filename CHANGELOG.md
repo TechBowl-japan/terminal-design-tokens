@@ -1,5 +1,13 @@
 # @techtrain/terminal-design-tokens
 
+## 0.1.2
+
+### Patch Changes
+
+- 2762817: chore: improve build process
+  - Replace `prepare` with `prepublishOnly` script to avoid unnecessary builds
+  - Add explicit build step in GitHub Actions workflow
+
 ## 0.1.1
 
 ### Patch Changes
