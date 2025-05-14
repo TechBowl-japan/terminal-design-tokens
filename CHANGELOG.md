@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.1
+
+### Patch Changes
+
+- [#19](https://github.com/TechBowl-japan/terminal-design-tokens/pull/19) [`e9a56ed`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/e9a56ededbe3f9fb815b1c6c66ec0d46555cb9e3) Thanks [@valbeat](https://github.com/valbeat)! - refactor: use style-dictionary clean command
+
 ## 0.2.0
 
 ### Minor Changes
