@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "style-dictionary build",
-    "clean": "rm -rf dist",
+    "clean": "style-dictionary clean",
     "prepublishOnly": "npm run build",
     "version": "changeset version",
     "release": "changeset publish"
