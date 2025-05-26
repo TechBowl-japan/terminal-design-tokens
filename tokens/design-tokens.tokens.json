@@ -1,17 +1,5 @@
 {
   "primitive color": {
-    "techtrain theme": {
-      "primary": {
-        "type": "color",
-        "value": "#3d3d5cff",
-        "blendMode": "normal"
-      },
-      "secondary": {
-        "type": "color",
-        "value": "#5aa6d9ff",
-        "blendMode": "normal"
-      }
-    },
     "techtrain blue": {
       "5": {
         "type": "color",
@@ -694,18 +682,6 @@
     }
   },
   "semantics color": {
-    "theme": {
-      "primary": {
-        "description": "TechTrainのメインカラー",
-        "type": "color",
-        "value": "{primitive color.techtrain theme.primary}"
-      },
-      "secondary": {
-        "description": "TechTrainのサブカラー",
-        "type": "color",
-        "value": "{primitive color.techtrain theme.secondary}"
-      }
-    },
     "background": {
       "primary": {
         "description": "基準となる背景色です。",
@@ -1024,32 +1000,6 @@
     }
   },
   "primitive size": {
-    "spacing": {
-      "xs": {
-        "type": "dimension",
-        "value": 4
-      },
-      "sm": {
-        "type": "dimension",
-        "value": 8
-      },
-      "md": {
-        "type": "dimension",
-        "value": 16
-      },
-      "lg": {
-        "type": "dimension",
-        "value": 24
-      },
-      "xl": {
-        "type": "dimension",
-        "value": 32
-      },
-      "2xl": {
-        "type": "dimension",
-        "value": 48
-      }
-    },
     "devicesize": {
       "pc-1920px": {
         "type": "dimension",
