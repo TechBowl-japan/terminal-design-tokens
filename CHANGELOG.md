@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.2
+
+### Patch Changes
+
+- [#23](https://github.com/TechBowl-japan/terminal-design-tokens/pull/23) [`234b711`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/234b7115128f4f323d92be6ef4b397995ea38c67) Thanks [@valbeat](https://github.com/valbeat)! - Renamed tokens.json to design-tokens.tokens.json for better clarity
+
 ## 0.2.1
 
 ### Patch Changes
