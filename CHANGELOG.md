@@ -1,5 +1,17 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.4
+
+### Patch Changes
+
+- [#28](https://github.com/TechBowl-japan/terminal-design-tokens/pull/28) [`f19ab73`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/f19ab73fa0330430bbbd63d9c867c422684dada5) Thanks [@valbeat](https://github.com/valbeat)! - Fix PrimitiveSizeOpacity values from pixel units to proper opacity values
+
+  - Fixed opacity values from pixel units (e.g., "10px") to decimal values (e.g., 0.1)
+  - Implemented custom Style Dictionary transforms to handle opacity tokens correctly
+  - Added custom transform that prevents "px" units from being added to opacity values
+  - Migrated from config.json to config.js to enable custom transforms
+  - This fixes CSS opacity property compatibility issues
+
 ## 0.2.3
 
 ### Patch Changes
