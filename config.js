@@ -1,3 +1,10 @@
+// Helper function to check if a token is an opacity token
+const isOpacityToken = (token) => {
+  return token.path && 
+         token.path[0] === 'primitive size' && 
+         token.path[1] === 'opacity';
+};
+
 module.exports = {
   hooks: {
     transforms: {
@@ -5,11 +12,7 @@ module.exports = {
         type: 'value',
         filter: (token) => {
           // Apply to dimension tokens but NOT opacity tokens
-          // Check specifically for primitive size opacity path
-          const isOpacity = token.path && 
-                           token.path[0] === 'primitive size' && 
-                           token.path[1] === 'opacity';
-          return token.type === 'dimension' && !isOpacity;
+          return token.type === 'dimension' && !isOpacityToken(token);
         },
         transform: (token) => {
           return parseFloat(token.value) + 'px';
@@ -17,13 +20,7 @@ module.exports = {
       },
       'opacity/decimal': {
         type: 'value',
-        filter: (token) => {
-          // Match tokens that are specifically in primitive size opacity path
-          // This is more specific than just checking if path includes 'opacity'
-          return token.path && 
-                 token.path[0] === 'primitive size' && 
-                 token.path[1] === 'opacity';
-        },
+        filter: isOpacityToken,
         transform: (token) => {
           // Convert values like 10, 20, 30 to 0.1, 0.2, 0.3
           const value = parseFloat(token.value);
