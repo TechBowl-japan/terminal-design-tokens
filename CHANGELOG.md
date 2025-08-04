@@ -1,5 +1,15 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.3
+
+### Patch Changes
+
+- [#26](https://github.com/TechBowl-japan/terminal-design-tokens/pull/26) [`44bf389`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/44bf389c10dac26aff203dca8bff1fe819a45fd4) Thanks [@valbeat](https://github.com/valbeat)! - Clean up design tokens by removing unused tokens and fixing typos
+
+  - Remove unused "techtrain theme" tokens from primitive and semantic colors
+  - Remove unused "spacing" tokens from primitive size
+  - Fix typo: rename "blakepoint" to "breakpoint"
+
 ## 0.2.2
 
 ### Patch Changes
