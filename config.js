@@ -1,8 +1,15 @@
+// Path constants for better maintainability
+const PRIMITIVE_SIZE_OPACITY_PATH = ['primitive size', 'opacity'];
+
+// Helper function to check if a path starts with a given prefix
+function pathStartsWith(path, prefix) {
+  if (!Array.isArray(path) || path.length < prefix.length) return false;
+  return prefix.every((seg, i) => path[i] === seg);
+}
+
 // Helper function to check if a token is an opacity token
 const isOpacityToken = (token) => {
-  return token.path && 
-         token.path[0] === 'primitive size' && 
-         token.path[1] === 'opacity';
+  return pathStartsWith(token.path, PRIMITIVE_SIZE_OPACITY_PATH);
 };
 
 module.exports = {
