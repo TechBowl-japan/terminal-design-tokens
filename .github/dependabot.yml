@@ -18,9 +18,6 @@ updates:
     labels:
       - "dependencies"
       - "npm"
-    # Assignees for PRs
-    assignees:
-      - "TechBowl-japan"
     # Allow both direct and indirect updates for all packages
     allow:
       - dependency-type: "all"
