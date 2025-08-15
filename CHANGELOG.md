@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.2.5
+
+### Patch Changes
+
+- [#31](https://github.com/TechBowl-japan/terminal-design-tokens/pull/31) [`cd53d6e`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/cd53d6e433bcccc9a91a1a880fc57be4827cde46) Thanks [@valbeat](https://github.com/valbeat)! - Add Dependabot configuration for automated dependency updates
+
 ## 0.2.4
 
 ### Patch Changes
