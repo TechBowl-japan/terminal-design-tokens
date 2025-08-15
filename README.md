@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/%40techtrain%2Fterminal-design-tokens.svg)](https://badge.fury.io/js/%40techtrain%2Fterminal-design-tokens)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Design tokens for TechTrain's design system "Terminal". This package uses [Style Dictionary](https://amzn.github.io/style-dictionary) to transform tokens defined in JSON into multiple platform outputs.
+Design tokens for TechTrain's design system "Terminal". This package uses [Style Dictionary](https://styledictionary.com/) to transform tokens defined in JSON into multiple platform outputs.
 
 🎨 [View in Figma](https://www.figma.com/community/file/1472050808130527580/techtrain-terminal-design-system) - Explore our design system in Figma
 
