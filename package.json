@@ -35,7 +35,7 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/changelog-github": "0.5.1",
-    "@changesets/cli": "2.29.6",
+    "@changesets/cli": "2.29.7",
     "style-dictionary": "5.0.0"
   },
   "repository": {
