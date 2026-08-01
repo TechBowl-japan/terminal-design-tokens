@@ -1,5 +1,11 @@
 # @techtrain/terminal-design-tokens
 
+## 0.3.0
+
+### Minor Changes
+
+- [#177](https://github.com/TechBowl-japan/terminal-design-tokens/pull/177) [`8921e75`](https://github.com/TechBowl-japan/terminal-design-tokens/commit/8921e7556390270885d00ef4806d754a968712f5) Thanks [@valbeat](https://github.com/valbeat)! - Require Node.js 24 (bump `engines.node` from 22.x to 24.x, the current Active LTS)
+
 ## 0.2.5
 
 ### Patch Changes
