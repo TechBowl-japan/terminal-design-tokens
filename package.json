@@ -34,7 +34,7 @@
   "author": "TechBowl Inc.",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/changelog-github": "0.7.0",
+    "@changesets/changelog-github": "1.0.0",
     "@changesets/cli": "3.0.1",
     "style-dictionary": "5.5.1"
   },
