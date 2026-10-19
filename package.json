@@ -36,7 +36,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "1.0.1",
     "@changesets/cli": "3.0.1",
-    "style-dictionary": "5.6.0"
+    "style-dictionary": "5.6.1"
   },
   "repository": {
     "type": "git",
